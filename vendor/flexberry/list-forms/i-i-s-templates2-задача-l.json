@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-templates2-задача-e",
+  "editForm": "i-i-s-templates2-задача-e",
+  "external": false,
+  "caption": "Задача",
+  "name": "IISTemplates2ЗадачаL",
+  "className": "ЗадачаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-templates2-задача",
+      "modelProjection": "ЗадачаL"
+    }
+  ]
+}

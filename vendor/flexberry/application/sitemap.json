@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Templates2",
+  "applicationTitle": "Templates2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "templates2",
+      "caption": "Templates2",
+      "title": "Templates2",
+      "children": [
+        {
+          "link": "i-i-s-templates2-проект-l",
+          "menuName": null,
+          "caption": "Проект",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-templates2-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-templates2-задача-l",
+          "menuName": null,
+          "caption": "Задача",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISTemplates2Сотрудник",
+  "modelName": "i-i-s-templates2-сотрудник",
+  "className": "Сотрудник",
+  "nameSpace": "IIS.Templates2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СотрудникE",
+      "modelName": "i-i-s-templates2-сотрудник",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СотрудникL",
+      "modelName": "i-i-s-templates2-сотрудник",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

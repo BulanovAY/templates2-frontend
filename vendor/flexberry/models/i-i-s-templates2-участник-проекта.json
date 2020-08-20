@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISTemplates2УчастникПроекта",
+  "modelName": "i-i-s-templates2-участник-проекта",
+  "className": "УчастникПроекта",
+  "nameSpace": "IIS.Templates2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-templates2-сотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "проект",
+      "relatedTo": "i-i-s-templates2-проект",
+      "inverse": "участникПроекта"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УчастникПроектаE",
+      "modelName": "i-i-s-templates2-участник-проекта",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Сотрудник",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-templates2-сотрудник",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

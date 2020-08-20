@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISTemplates2Проект",
+  "modelName": "i-i-s-templates2-проект",
+  "className": "Проект",
+  "nameSpace": "IIS.Templates2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "участникПроекта",
+      "relatedTo": "i-i-s-templates2-участник-проекта",
+      "inverse": "проект"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ПроектE",
+      "modelName": "i-i-s-templates2-проект",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "УчастникПроектаE",
+          "caption": "Участник проекта",
+          "name": "участникПроекта",
+          "relatedTo": "i-i-s-templates2-участник-проекта",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ПроектL",
+      "modelName": "i-i-s-templates2-проект",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

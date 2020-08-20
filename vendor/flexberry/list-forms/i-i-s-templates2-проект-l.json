@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-templates2-проект-e",
+  "editForm": "i-i-s-templates2-проект-e",
+  "external": false,
+  "caption": "Проект",
+  "name": "IISTemplates2ПроектL",
+  "className": "ПроектL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-templates2-проект",
+      "modelProjection": "ПроектL"
+    }
+  ]
+}
